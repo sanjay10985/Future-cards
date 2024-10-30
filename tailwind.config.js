@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ["Smile", "sans-serif"], // Add your custom font here
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
